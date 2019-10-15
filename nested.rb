@@ -86,10 +86,10 @@ def adding_matz
         }
      }
 
-  programmer_hash[:yukihiro_matsumoto] = {
-          :known_for => "CSS",
-          :languages => []
-        }
+  programmer_hash[:yukihiro_matsumoto] = {}
+  programmer_hash[:yukihiro_matsumoto][:known_for] = "Front-end wizardry"
+  programmer_hash[:yukihiro_matsumoto][:languages] = [
+    "javascript", "php"]
     
 end
 
